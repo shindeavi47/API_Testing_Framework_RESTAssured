@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Automation Suite">
+    <test name="All API Tests">
+        <classes>
+            <class name="tests.posts.GETApiTest"/>
+            <class name="tests.posts.FilterApiTest"/>
+            <class name="tests.posts.NegativeApiTest"/>
+            <class name="tests.posts.DetailsApiTest"/>
+            <class name="tests.posts.ConfigReaderTest"/>
+            <class name="tests.posts.UsingAPIClient"/>
+            <class name="tests.posts.POSTRequests"/>
+        </classes>
+    </test>
+</suite>

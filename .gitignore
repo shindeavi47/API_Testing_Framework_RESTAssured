@@ -1,0 +1,8 @@
+.github
+.settings
+bin_test/
+src/main/
+target
+test-output
+.classpath
+.project
